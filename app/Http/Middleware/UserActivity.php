@@ -1,6 +1,10 @@
 <?php
 
 namespace App\Http\Middleware;
+use Illuminate\Http\Request;
+use Auth;
+use Cache;
+use App\User;
 
 use Closure;
 
